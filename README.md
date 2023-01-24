@@ -1,2 +1,2 @@
 # CS50STD
-CS50 annotations
+CS50 annotations, started at 24/01/2023
