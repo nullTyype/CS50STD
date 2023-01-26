@@ -5,7 +5,7 @@
     <img src="https://github.com/nullTyype/CS50STD/raw/master/cs50.png" width = "600" height = "300" >
 </p>
 
-# WEEK-0
+## WEEK-0
 
 Once computer just have 2 states of the simplest bit of information (0,1: On and Off), the way we use to count numbers are the presence (or not) of these at the CPU "information chunk" at certain time period; <br/>
 Typical computer binary representation: <br/>
