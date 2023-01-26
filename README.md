@@ -8,6 +8,8 @@
 <img src="https://github.com/nullTyype/CS50STD/raw/master/assets/split.png" align = "center" >
 
 ## WEEK-0
+
+#### Bits
 **Once computer just have 2 states of the simplest bit of information (0,1: On and Off), the way we use to count numbers are the presence (or not) of these at the CPU "information chunk" at certain time period; <br/>
 Example of computer binary representation:**<br/>
 <p align = "center">
@@ -16,7 +18,3 @@ Example of computer binary representation:**<br/>
     8 4 2 1 <br/>
     1 1 0 0 = 12<br/>
 </p>
-
-### ASCII and UNICODE
-
-**ASCII is just a mapping that generally uses 8 bits, what implies in just 256(2^8) possible characters instead of UNICODE whose uses a whole lotta aditional bits to represent data;
