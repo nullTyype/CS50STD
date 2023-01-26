@@ -16,3 +16,7 @@ Example of computer binary representation:**<br/>
     8 4 2 1 <br/>
     1 1 0 0 = 12<br/>
 </p>
+
+### ASCII and UNICODE
+
+**ASCII is just a mapping that generally uses 8 bits, what implies in just 256(2^8) possible characters instead of UNICODE whose uses a whole lotta aditional bits to represent data;
