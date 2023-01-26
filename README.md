@@ -13,5 +13,5 @@
 Example of computer binary representation:**<br/>
 8 4 2 1 <br/>
 1 0 0 0 = 8 <br/>
-8 4 2 1 <br/></br>
-1 1 0 0 = 12, so on <br/>
+8 4 2 1 <br/>
+1 1 0 0 = 12<br/>
