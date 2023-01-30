@@ -18,3 +18,5 @@ Example of computer binary representation:**<br/>
     8 4 2 1 <br/>
     1 1 0 0 = 12<br/>
 </p>
+
+## WEEK-1
