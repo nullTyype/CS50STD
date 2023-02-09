@@ -1,4 +1,5 @@
-#include <cs50.h>
+#include "../cs50.h"
+#include "../cs50.c"
 #include <stdio.h>
 #include <math.h>
 
@@ -33,12 +34,10 @@ int numberOfYears(int startSize, int endSize)
 {
     float pop = startSize;
     int y;
-    float y2;
-    for (; pop + pop/12 <= endSize; y++)
+    for (; pop + pop / 12 <= endSize; y++)
     {
         pop += pop / 12;
         printf("Current population: %f\n", pop);
-        y2 = ;
     }
 
     return y;
