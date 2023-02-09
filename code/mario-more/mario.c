@@ -1,4 +1,5 @@
-#include <cs50.h>
+#include "../cs50.h"
+#include "../cs50.c"
 #include <stdio.h>
 
 void draw(int height);
