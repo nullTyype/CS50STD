@@ -7,14 +7,14 @@
 
 <img src="https://github.com/nullTyype/CS50STD/raw/master/assets/split.png" align = "center" >
 
-- [x] week 0;
-- [x] week 1;
-- [] week 2;
-- [] week 3;
-- [] week 4;
-- [] week 5;
-- [] week 6;
-- [] week 7;
-- [] week 8;
-- [] week 9;
-- [] week 10;
+## - [x] week 0;
+## - [x] week 1;
+## - [] week 2;
+## - [] week 3;
+## - [] week 4;
+## - [] week 5;
+## - [] week 6;
+## - [] week 7;
+## - [] week 8;
+## - [] week 9;
+## - [] week 10;
