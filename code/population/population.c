@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int numberOfYears(int startSize, int endSize);
+float numberOfYears(int startSize, int endSize);
 
 int main(void)
 {
@@ -27,18 +27,18 @@ int main(void)
     int years = numberOfYears(startSize, endSize);
 
     // TODO: Print number of years
-    printf("Years: %i\n", years);
+    printf("Years: %f\n", years);
 }
 
-int numberOfYears(int startSize, int endSize)
+float numberOfYears(int startSize, int endSize)
 {
     float pop = startSize;
-    int y;
+    float y;
     for (; pop + pop / 12 <= endSize; y++)
     {
         pop += pop / 12;
         printf("Current population: %f\n", pop);
     }
 
-    return y;
+    return (y + ((float)endSize - pop)/(pop/12));
 }
