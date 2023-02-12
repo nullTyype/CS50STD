@@ -37,8 +37,8 @@ int numberOfYears(int startSize, int endSize)
     for (; pop + pop / 12 <= endSize; y++)
     {
         pop += pop / 12;
-        printf("Current population: %f\n", pop);
+        printf("Current population: %f\n Years: %i\n", pop, y);    
     }
 
-    return (y + ((endSize - pop)/(pop/12)));
+    return (y + ((endSize - pop)/(pop/12.0)));
 }
