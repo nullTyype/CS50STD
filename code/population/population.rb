@@ -11,10 +11,10 @@ def timeElapsed(startsize, endsize)
         puts "Year: #{years}, Population: #{population}"
     end
 
-    puts "Years: #{years + ((endsize - population)/(population/12))}"
+    puts "Years: #{(years + ((endsize - population)/(population/12))).to_i}"
 end
 
-if (startsize.is_a? Float) && (endsize.is_a? Float) && (startsize > 2)
+if (startsize.is_a? Float) && (endsize.is_a? Float) && (startsize > 9)
     timeElapsed(startsize, endsize)
 else
     STDERR.puts <<-eof
