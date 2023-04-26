@@ -1,0 +1,23 @@
+RANDOM ->sort2
+    sort1-5000  0m0.087s
+    sort1-50000 0m8.907s
+    sort2-5000  0m0.033s
+    sort2-50000 0m0.914s
+    sort3-5000  0m0.069s
+    sort3-50000 0m3.781s
+
+REVERSED ->sort2
+    sort1-5000  0m0.071s
+    sort1-50000 0m6.777s
+    sort2-5000  0m0.054s
+    sort2-50000 0m0.877s
+    sort3-5000  0m0.075s
+    sort3-50000 0m4.297s
+
+SORTED ->sort2
+    sort1-5000  0m0.040s
+    sort1-50000 0m0.927s
+    sort2-5000  0m0.022s
+    sort2-50000 0m0.676s
+    sort3-5000  0m0.071s
+    sort3-50000 0m3.862s

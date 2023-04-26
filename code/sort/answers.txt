@@ -1,0 +1,8 @@
+sort1 uses: bubble sort;
+How do you know?: fastest than sort3 in sorted;
+
+sort2 uses: merge sort;
+How do you know?: fastest than sort1 and sort3 also differs a lot of others sorts;
+
+sort3 uses: selection sort;
+How do you know?: fastest or next to sort1 unless at sorted;
