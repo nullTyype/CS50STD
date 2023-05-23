@@ -1,0 +1,43 @@
+// TODO
+    bool hasBreak = false;
+    bool tie[candidate_count];
+
+    for (int i = 0; i < pair_count; i++)
+    {
+        pair basePair = pairs[i];
+        // compare pair is the current pair that matched base pair points to;
+        pair comparePair = basePair;
+        // search over each pair, updating comparePair checking if it creates a pair with basePair;
+        // when no tie, gets buggy when updating comparePair FIXTHAT!!!
+        for (int j = 0; j < pair_count; j++)
+        {
+            if (comparePair.loser == pairs[j].winner)
+            {
+                // set tie
+                tie[comparePair.loser] = true;
+                // swap pair to be compared;
+                comparePair = pairs[j];
+                // reset j for properly comparison;
+                j = 0;
+                locked[basePair.winner][basePair.loser] = true;
+
+                // the code is ever executing this part for input (9 ballots, a b c), what means all pairs is locked,
+                // tie is ever true for ever candidate and winner is never being set correctly,
+                //  once all loop is going to set itself as winner FIXXXXXTHATTTTTTTTTTT;
+
+                // if last compared pair points to base pair, it is a cycle, set winner and cancel lock;
+                if (comparePair.loser == basePair.winner && tie[comparePair.winner] == true)
+                {
+                    // set winner and break loop;
+                    locked[comparePair.winner][comparePair.loser] = false;
+                    winner = candidates[basePair.winner];
+                    break;
+                }
+            }
+            else
+            {
+                tie[comparePair.loser] = true;
+                locked[basePair.winner][basePair.loser] = true;
+            }
+        }
+    }

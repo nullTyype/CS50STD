@@ -1,0 +1,2 @@
+what means to be a cycle to the tideman logic?
+>it is when a pair is going to lock with pair that are already locked each other;

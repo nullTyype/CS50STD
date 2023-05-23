@@ -1,0 +1,7 @@
+take a base pair, following strength order, 
+search over pairs array til find some that winner is equal base pair loser,
+repeating that for every single pair,
+til one match base pair as loser, meaning there's a cycle; 
+case don't find any, there's no cycle, executing to next pair;
+
+in case there's no cycle, lock pair and set tie array for winner set;
