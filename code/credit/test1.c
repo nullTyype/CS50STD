@@ -6,6 +6,5 @@ int main(){
     int nums[length];
     int i = 0;
     for (i = 0; i < length; i++){
-        
     }
 }
