@@ -1,0 +1,17 @@
+Times:
+
+10 simulations: 0m0.028s (record time using 0m0.000s format)
+100 simulations: 0m0.029s (record time using 0m0.000s format)
+1000 simulations: 0m0.035s (record time using 0m0.000s format)
+10000 simulations: 0m0.103s (record time using 0m0.000s format)
+100000 simulations: 0m0.788s (record time using 0m0.000s format)
+1000000 simulations: 0m7.889s (record time using 0m0.000s format)
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?: the program becomes more accurate based at rating according N gets closer from infinite;
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: 10000, because it is good enough to give an correct range of the winners,
+takes approximatelly 3 times more than it's previous simulation (1000) even realizing 10 times more simulations,
+different from it's successor that takes around 8 times to simulates, realizing the same 10 times more simulations;
