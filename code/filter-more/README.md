@@ -3,7 +3,7 @@ This exercise's the goal is to manage functions declared at "helpers.c" file to 
 
 The grayscale function was pretty clean (and easy) to implement once it's logic is simple, just taking each pixel value and set all of them to the average of all (red, green and blue);
 
-At reflect function I decided to implement a logic that splits the image into 2 pieces flipping each pixel with it's counterpart having it's "highlight" (the point I really liked) at j index math { image[i][width-j-1] }, decreasing the pixel according with j increase, featuring some thinking process images taken at paint;
+At reflect function I decided to implement a logic that splits the image into 2 pieces flipping each pixel with it's counterpart having it's "highlight" (the point I really liked) at j index math { image[i][width-j-1] }, decreasing the pixel according with j increase, featuring some thinking process images made at paint;
 
 At the blur function I learn a very interesting logic using 4 loops to validates the math using the pixels;
 it's first version was a lotta "brute force thought" once it's first version was made with a whole bunch of if's (the other.c file illustrates what I mean), applying the 4 loops logic after I discover it at the edges function;
