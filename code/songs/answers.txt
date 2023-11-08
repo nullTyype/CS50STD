@@ -1,0 +1,6 @@
+- Blue, following the spotify classification itself if the question is about the music taste;
+Otherwise to classify the hypothetic person's aura I would stabillish patterns using the energy, danceavility, loudness etc.
+to define the person's aura throught an algorithm that follows the patterns I stabillished previouly;
+
+- Using an type of trie structure to link that person comparing to other person's taste and expanding the aura to have mixed colors,
+not only 6 options;
